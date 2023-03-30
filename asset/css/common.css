@@ -1,0 +1,50 @@
+.wrapper{
+    min-width: 1190px;
+}
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+/* 공용소스 [공용화장실] */
+.header .logo a,
+.header .search-area .btn-submit::after,
+.header .service-area a::after,
+.sc-news .group-issue .link-media::after,
+.sc-news .group-title .btn-set::after,
+.sc-login .link-login::before,
+.sc-sidenews .btn-nav::after,
+.assortedthemes .group-title .set-area .btn-theme::before,
+.funding-area .foodclass-area .funding-title::after,
+.footer .group-notice .link-service::after,
+.sc-news .group-title .link-title::before
+{
+    background-image: url(../images/sp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 457px auto;
+}
+.sc-news .group-title .link-title::after
+{
+    background-image: url(../images/bg-main.png);
+    background-repeat: no-repeat;
+    background-size: 442px 428px;
+}
+.shop .group-title .title-b::before,
+.shop .nav-box .btn-nav.prev::before,
+.shop .nav-box .btn-nav.next::before,
+.shop .event-area .link-direct::before,
+.shop .event-area .link-media i::after
+{
+    background-image: url(../images/sp-bg1.png);
+    background-repeat: no-repeat;
+    background-size: 107px 101px;
+}
+.gnb .weather-area .weather-left::before{
+    background-image: url(../images/weather.png);
+    background-size: 215px 184px;
+    background-repeat: no-repeat;
+}
